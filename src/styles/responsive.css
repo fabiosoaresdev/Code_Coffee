@@ -38,11 +38,10 @@
 
     .rodape{
         text-align: center;
+        align-items: center;
     }
 
-    .rodape .logo{
-        display: block;
-    }
+    
 
     .rodape ul{
         display: block;
@@ -55,7 +54,14 @@
 
     .rodape .redes-sociais{
         float: none;
+        align-items: center;
     }
+
+    .redes-sociais-e-copy{
+        display:block;
+        align-items: center;
+    }
+    
 }
 
 @media (max-width: 425px) {
