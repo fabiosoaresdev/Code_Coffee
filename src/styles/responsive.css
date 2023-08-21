@@ -1,0 +1,100 @@
+@media (max-width: 992px) {
+   .secao-com-texto{
+    padding: 153px 40px;
+   }
+    
+    .secao-com-texto p,
+    .secao-com-texto.onde-estamos p{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .ladrilho .grande, .ladrilho .medio {
+        width: 100%;
+    }
+
+    .ladrilho .pequeno1, .ladrilho .pequeno2 {
+        width: 50%;
+    }
+
+    .contato{
+        background-image: none;
+        background-color: #d3ae71;
+    }
+    .contato .texto{
+        position: relative;
+        text-align: center;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .contato h2{
+        margin-bottom: 46px;
+    }
+
+    .rodape{
+        text-align: center;
+    }
+
+    .rodape .logo{
+        display: block;
+    }
+
+    .rodape ul{
+        display: block;
+        width: 100%;
+    }
+
+    .rodape ul li{
+        display: block;
+    }
+
+    .rodape .redes-sociais{
+        float: none;
+    }
+}
+
+@media (max-width: 425px) {
+    html{
+        font-size: 80%;
+    }
+    .cabecalho .logo{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cabecalho nav{
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cabecalho nav ul li{
+        display: block;
+    }
+
+    .cabecalho nav ul li a{
+        width: 100%;
+        display: block;
+    }
+
+    .painel h2{
+        font-size: 2.5rem;
+    }
+
+    
+}
+
+@media (max-width: 375px) {
+    .ladrilho .grande, 
+    .ladrilho .medio, 
+    .ladrilho .pequeno1, 
+    .ladrilho .pequeno2 {
+        width: 100%;
+    }
+
+}
